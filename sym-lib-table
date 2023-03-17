@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "Arduino")(type "KiCad")(uri "C:/KICAD/Kicad_libs/footprints/kicad-lib-arduino-main/Arduino.kicad_sym")(options "")(descr ""))
+  (lib (name "w_connectors")(type "KiCad")(uri "C:/KICAD/Kicad_libs/libraries/w_connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "MT32")(type "KiCad")(uri "C:/KICAD/Kicad_libs/libraries/MT32.kicad_sym")(options "")(descr ""))
+  (lib (name "Switches")(type "KiCad")(uri "C:/KICAD/Kicad_libs/libraries/Switches.kicad_sym")(options "")(descr ""))
+)

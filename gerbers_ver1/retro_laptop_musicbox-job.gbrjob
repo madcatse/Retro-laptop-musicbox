@@ -1,0 +1,104 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.25,
+"PadToPad": 0.0,
+"PadToTrack": 0.0,
+"RegionToRegion": 0.508,
+"TrackToRegion": 0.508,
+"TrackToTrack": 0.2
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "retro_laptop_musicbox-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Bot",
+"FilePolarity": "Positive",
+"Path": "retro_laptop_musicbox-B_Cu.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "retro_laptop_musicbox-F_Silkscreen.gbr"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "retro_laptop_musicbox-B_Silkscreen.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "retro_laptop_musicbox-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "retro_laptop_musicbox-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "retro_laptop_musicbox-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6,
+"Finish": "None",
+"LayerNumber": 2,
+"ProjectId": {
+"GUID": "6d795f70-6362-42e6-9b69-6361645f7063",
+"Name": "my_pcb",
+"Revision": "rev?"
+},
+"Size": {
+"X": 200.05,
+"Y": 77.05
+}
+},
+"Header": {
+"CreationDate": "2023-01-11T22:52:15+03:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "(6.0.10)"
+}
+},
+"MaterialStackup": [
+{
+"Name": "Top Silk Screen",
+"Type": "Legend"
+},
+{
+"Name": "Top Solder Mask",
+"Type": "SolderMask"
+},
+{
+"Name": "F.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Name": "F.Cu/B.Cu",
+"Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)",
+"Type": "Dielectric"
+},
+{
+"Name": "B.Cu",
+"Type": "Copper"
+},
+{
+"Name": "Bottom Solder Mask",
+"Type": "SolderMask"
+},
+{
+"Name": "Bottom Silk Screen",
+"Type": "Legend"
+}
+]
+}

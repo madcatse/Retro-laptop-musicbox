@@ -1,0 +1,108 @@
+
+(rules PCB my_pcb_autoroute
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 5)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.0)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd-smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-power" "Via[0-1]_800:400_um" power
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    power "Via[0-1]_800:400_um-power"
+  )
+  (class default
+    +9V GND "Net-(C8-Pad1)" "Source_audio" "Net-(C10-Pad1)" GAIN8 "Net-(C11-Pad2)" VOUT
+    "Net-(C15-Pad2)" "Net-(C16-Pad1)" "Net-(C17-Pad1)" "AMP_audio" "Net-(D1-Pad1)" "Net-(D1-Pad2)" /Midi/STROBE "Net-(J1-Pad2)"
+    "Net-(J1-Pad3)" "Net-(J1-Pad4)" "Net-(J1-Pad5)" "Net-(J1-Pad6)" "Net-(J1-Pad7)" "Net-(J1-Pad8)" "Net-(J1-Pad9)" "unconnected-(J1-Pad10)"
+    "unconnected-(J1-Pad11)" "unconnected-(J1-Pad12)" "unconnected-(J1-Pad13)" "Net-(J1-Pad14)" "unconnected-(J1-Pad15)" "Net-(J1-Pad16)" /Midi/SELECTPRN "unconnected-(J2-Pad1)"
+    "unconnected-(J2-Pad2)" "unconnected-(J2-Pad3)" "Net-(J2-Pad4)" SDA SCL "DAC_BCK" "DAC_DIN" "DAC_LCK"
+    "unconnected-(J5-Pad7)" "unconnected-(J5-Pad8)" "unconnected-(J5-Pad9)" "unconnected-(J5-Pad10)" "unconnected-(J5-Pad11)" "unconnected-(J5-Pad12)" "unconnected-(J5-Pad14)" "BUTTON_1"
+    "BUTTON_2" "BUTTON_3" "BUTTON_4" "BUTTON_5" "unconnected-(J10-Pad1)" "Net-(J10-Pad2)" "Net-(J10-Pad3)" "Net-(J10-Pad4)"
+    "Net-(J10-Pad5)" "Net-(J10-Pad6)" "Net-(J10-Pad7)" "Net-(J10-Pad8)" "Net-(J10-Pad9)" "unconnected-(J10-Pad10)" "unconnected-(J10-Pad11)" "unconnected-(J10-Pad12)"
+    "unconnected-(J10-Pad13)" "unconnected-(J10-Pad14)" "unconnected-(J10-Pad15)" "unconnected-(J10-Pad16)" "unconnected-(J10-Pad17)" "unconnected-(Pi1-Pad1)" "unconnected-(Pi1-Pad8)" "/Midi/MIDI_RXD"
+    "unconnected-(Pi1-Pad18)" "unconnected-(Pi1-Pad19)" "unconnected-(Pi1-Pad20)" "unconnected-(Pi1-Pad21)" "unconnected-(Pi1-Pad22)" "unconnected-(Pi1-Pad23)" "unconnected-(Pi1-Pad24)" "unconnected-(Pi1-Pad26)"
+    "unconnected-(Pi1-Pad27)" "unconnected-(Pi1-Pad28)" "unconnected-(Pi1-Pad29)" "unconnected-(Pi1-Pad30)" "unconnected-(Pi1-Pad31)" "unconnected-(Pi1-Pad32)" "unconnected-(Pi1-Pad33)" "unconnected-(Pi1-Pad34)"
+    "unconnected-(Pi1-Pad36)" "unconnected-(Pi1-Pad37)" "unconnected-(Pi1-Pad38)" "Net-(R2-Pad1)" "Net-(R2-Pad2)" "Net-(R4-Pad2)" "Net-(R14-Pad1)" "Net-(R14-Pad2)"
+    "Net-(R15-Pad2)" "Net-(R16-Pad2)" "Net-(R10-Pad2)" "Net-(R11-Pad2)" "Net-(R12-Pad2)" "Net-(R13-Pad2)" "Net-(R22-Pad1)" "unconnected-(RV2-Pad1)"
+    GAIN1 "unconnected-(RV4-Pad1)" "Net-(SW1-Pad2)" "Net-(SW1-Pad5)" "Net-(SW1-Pad6)" "unconnected-(SW2-Pad3)" "unconnected-(U1-Pad2)" "unconnected-(U1-Pad3)"
+    "unconnected-(U1-Pad17)" "unconnected-(U1-Pad18)" "unconnected-(U1-Pad19)" "unconnected-(U1-Pad20)" "unconnected-(U1-Pad21)" "unconnected-(U1-Pad22)" "unconnected-(U1-Pad23)" "unconnected-(U1-Pad24)"
+    "unconnected-(U1-Pad25)" "unconnected-(U1-Pad26)" "unconnected-(U1-Pad28)" "unconnected-(U2-Pad3)" "unconnected-(J5-Pad13)" "unconnected-(J5-Pad15)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class power
+    +3V3 +12V +5V /Midi/POWER
+    (clearance_class power)
+    (via_rule power)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

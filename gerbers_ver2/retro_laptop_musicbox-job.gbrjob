@@ -1,0 +1,113 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.25,
+"PadToPad": 0.0,
+"PadToTrack": 0.0,
+"RegionToRegion": 0.508,
+"TrackToRegion": 0.508,
+"TrackToTrack": 0.2
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "retro_laptop_musicbox-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Bot",
+"FilePolarity": "Positive",
+"Path": "retro_laptop_musicbox-B_Cu.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "retro_laptop_musicbox-F_Silkscreen.gbr"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "retro_laptop_musicbox-B_Silkscreen.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "retro_laptop_musicbox-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "retro_laptop_musicbox-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "retro_laptop_musicbox-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6,
+"Finish": "None",
+"LayerNumber": 2,
+"ProjectId": {
+"GUID": "6d795f70-6362-42e6-9b69-6361645f7063",
+"Name": "my_pcb",
+"Revision": "rev?"
+},
+"Size": {
+"X": 260.05,
+"Y": 81.65
+}
+},
+"Header": {
+"CreationDate": "2023-03-08T19:14:54+03:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "(6.0.10)"
+}
+},
+"MaterialStackup": [
+{
+"Color": "White",
+"Name": "Top Silk Screen",
+"Type": "Legend"
+},
+{
+"Color": "Blue",
+"Name": "Top Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "F.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Name": "F.Cu/B.Cu",
+"Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)",
+"Thickness": 1.51,
+"Type": "Dielectric"
+},
+{
+"Name": "B.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"Color": "Blue",
+"Name": "Bottom Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Color": "White",
+"Name": "Bottom Silk Screen",
+"Type": "Legend"
+}
+]
+}
