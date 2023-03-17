@@ -5851,7 +5851,7 @@
   (gr_text "Amplified" (at 275.9951 42.18) (layer "F.SilkS") (tstamp 9790925d-244d-4dca-97e5-0c831141e26f)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Retro Laptop Musicbox ver. 0.2\n2022-2023\nUsing:\nhttps://github.com/yeokm1/pcb-covox\nhttps://github.com/eigenco/LPT2MIDI\nhttps://github.com/chris-jh/mt32-pi-midi-hat" (at 174.7951 76.73) (layer "F.SilkS") (tstamp e8e8ae6b-f36b-47f1-8baf-53a10e7c1cfb)
+  (gr_text "Retro Laptop Musicbox ver. 0.2\n2022-2023\nhttps://github.com/madcatse/Retro-laptop-musicbox\nUsing:\nhttps://github.com/yeokm1/pcb-covox\nhttps://github.com/eigenco/LPT2MIDI\nhttps://github.com/chris-jh/mt32-pi-midi-hat" (at 174.7951 78.74) (layer "F.SilkS") (tstamp e8e8ae6b-f36b-47f1-8baf-53a10e7c1cfb)
     (effects (font (size 1 1) (thickness 0.15) italic) (justify left))
   )
 
