@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.10)*%
-%TF.CreationDate,2023-03-08T19:14:54+03:00*%
-%TF.ProjectId,my_pcb,6d795f70-6362-42e6-9b69-6361645f7063,rev?*%
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.8)*%
+%TF.CreationDate,2023-03-17T13:42:55+03:00*%
+%TF.ProjectId,retro_laptop_musicbox,72657472-6f5f-46c6-9170-746f705f6d75,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.10)) date 2023-03-08 19:14:54*
+G04 Created by KiCad (PCBNEW (6.0.8)) date 2023-03-17 13:42:55*
 %MOMM*%
 %LPD*%
 G01*
@@ -1379,6 +1379,7 @@ D40*
 X256795100Y-85180000D03*
 %TO.N,GND*%
 X82895100Y-68180000D03*
+X101600000Y-91440000D03*
 X273495100Y-78980000D03*
 X255845100Y-73830000D03*
 X170195100Y-79330000D03*
