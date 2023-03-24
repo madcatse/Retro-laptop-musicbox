@@ -407,7 +407,7 @@
       "netlist": "my_pcb.net",
       "specctra_dsn": "my_pcb.dsn",
       "step": "my_pcb.step",
-      "vrml": ""
+      "vrml": "retro_laptop_musicbox.wrl"
     },
     "page_layout_descr_file": "${KICAD6_TEMPLATE_DIR}/gost_landscape.kicad_wks"
   },
