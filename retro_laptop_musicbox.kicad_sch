@@ -5,10 +5,11 @@
   (paper "A3")
 
   (title_block
-    (title "Midi/Covox Эмулятор")
+    (title "MIDI ЭМУЛЯТОР")
     (date "2023-03-07")
+    (company "МИЭТ")
     (comment 1 "АЕСН.123456.001")
-    (comment 2 "Панкратова")
+    (comment 2 "Понкратова")
     (comment 3 "Евстафьев")
   )
 
