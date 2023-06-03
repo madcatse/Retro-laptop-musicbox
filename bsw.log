@@ -1,0 +1,28 @@
+2023-05-25 22:05:56 20736     [INFO] ****** HyperLynx v2.6 build 14488140 
+2023-05-25 22:05:56 20736     [INFO]        C:\MentorGraphics\HLVX.2.6\SDD_HOME\hyperlynx64\bsw.exe 
+2023-05-25 22:06:05 20736     [INFO] Opening Project C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\retro_laptop_musicbox.hyp
+2023-05-25 22:06:05 20736    [ERROR] Error: Error: pin's device mouse-bite-2 not listed in DEVICE record, at line 64587 
+2023-05-25 22:06:08 20736     [INFO] Opened Board: retro_laptop_musicbox.hyp <C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\>
+2023-05-25 22:06:18 20736     [INFO] Opening Project C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\retro_laptop_musicbox.hyp
+2023-05-25 22:06:18 20736    [ERROR] Error: Error: pin's device mouse-bite-2 not listed in DEVICE record, at line 64587 
+2023-05-25 22:06:24 20736     [INFO] Opened Board: retro_laptop_musicbox.hyp <C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\>
+2023-05-25 22:07:23 20736     [INFO] Opening Project C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\retro_laptop_musicbox.hyp
+2023-05-25 22:07:23 20736    [ERROR] Error: Error: pin's device mouse-bite-2 not listed in DEVICE record, at line 64587 
+2023-05-25 22:07:28 20736     [INFO] Opened Board: retro_laptop_musicbox.hyp <C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\>
+2023-05-25 22:07:55 20736     [INFO] Opening Project C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\retro_laptop_musicbox.hyp
+2023-05-25 22:07:55 20736     [INFO] Opened Board: retro_laptop_musicbox.hyp <C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\>
+2023-05-25 23:11:07 20736     [INFO] Notice: In BoardSim, .EBD models can only be assigned using the .REF or .QPL files
+2023-05-25 23:14:52 20736     [INFO] Close HyperLynx Session: Design file: retro_laptop_musicbox.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2023-05-25 23:14:53 20736     [INFO] Closing Design: retro_laptop_musicbox.hyp
+2023-05-25 23:15:03 20736     [INFO] Opening Project C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\retro_laptop_musicbox2.hyp
+2023-05-25 23:15:04 20736     [INFO] Opened Board: retro_laptop_musicbox2.hyp <C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\>
+2023-05-25 23:15:45 20736     [INFO] Close HyperLynx Session: Design file: retro_laptop_musicbox2.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2023-05-25 23:15:46 20736     [INFO] Closing Design: retro_laptop_musicbox2.hyp
+2023-05-25 23:15:52 20736     [INFO] Opening Project C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\retro_laptop_musicbox.hyp
+2023-05-25 23:15:52 20736     [INFO] Opened Board: retro_laptop_musicbox.hyp <C:\Users\madcat\Documents\GitHub\Retro-laptop-musicbox\>
+2023-05-25 23:21:33 20736  [WARNING] No driver on selected net. Choose a driver now? - The "Yes" button was selected
+2023-05-25 23:21:52 20736  [WARNING] No driver on selected net. Choose a driver now? - The "Yes" button was selected
+2023-05-25 23:22:18 20736  [WARNING] No driver on selected net. Choose a driver now? - The "No" button was selected
+2023-05-25 23:30:18 20736     [INFO] Close HyperLynx Session: Design file: retro_laptop_musicbox.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2023-05-25 23:30:19 20736     [INFO] Closing Design: retro_laptop_musicbox.hyp
+2023-05-25 23:30:20 20736     [INFO] ****** Closing HyperLynx 
