@@ -715,7 +715,7 @@
       (net 136 "BUTTON_3_F") (pinfunction "S1") (pintype "passive") (tstamp 30997b73-de5c-45ac-803e-15344e7482b2))
     (pad "S2" thru_hole circle (at 14.5 0) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 109 "GND") (pinfunction "S2") (pintype "passive") (tstamp 2827574d-d63e-4789-96f5-2eca8005a612))
-    (model "C:/KICAD/Kicad_libs/3d_models/EC11_Rotary_Encoder_Switched.wrl"
+    (model "${KIPRJMOD}/shapes3D/EC11_Rotary_Encoder_Switched.wrl"
       (offset (xyz 7.5 -2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -4252,10 +4252,10 @@
       (net 133 "unconnected-(J6-Pad4)") (pintype "no_connect") (tstamp 04db965a-3650-4de5-9991-7ec70d0db3bf))
     (pad "5" thru_hole circle (at 7.5 10 270) (size 2 2) (drill oval 1.4 1) (layers "*.Cu" "*.Mask")
       (net 66 "Source_audio") (pintype "passive") (tstamp a481197b-02a1-4b75-b5b9-954b71e4c93f))
-    (model "C:/KICAD/Kicad_libs/3d_models/ST-212.step"
-      (offset (xyz -2 -5 0))
+    (model "${KIPRJMOD}/shapes3D/minijack.STEP"
+      (offset (xyz -4 -5 2))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 -90))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -5759,10 +5759,10 @@
       (net 131 "unconnected-(J7-Pad4)") (pintype "no_connect") (tstamp 13036d16-50be-48ca-9602-9c26f545dda0))
     (pad "5" thru_hole circle (at 7.5 10 270) (size 2 2) (drill oval 1.4 1) (layers "*.Cu" "*.Mask")
       (net 120 "AMP_audio") (pintype "passive") (tstamp 8c6a8004-bf56-45da-88c0-29dca26e3b04))
-    (model "C:/KICAD/Kicad_libs/3d_models/ST-212.step"
-      (offset (xyz -2 -5 0))
+    (model "${KIPRJMOD}/shapes3D/minijack.STEP"
+      (offset (xyz -4 -5 2.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 -90))
+      (rotate (xyz 0 0 -180))
     )
   )
 
